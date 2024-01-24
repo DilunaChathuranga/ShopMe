@@ -370,6 +370,8 @@ public class ProductController {
 		exporter.export(listProduts, response);
 		
 		LOGGER.info("ProductsController | exportToExcel | export completed");
+		System.out.println();
+		
 		
 	}
 
