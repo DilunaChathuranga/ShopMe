@@ -1,0 +1,544 @@
+2023-07-06 20:17:07.928 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-06 20:17:07.928 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-07-06 20:17:07.929 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Jul 06 20:17:07 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-07-06 20:17:07.930 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-07-06 20:17:07.931 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/category-images/29/computer%20memory.png", parameters={}
+2023-07-06 20:17:07.933 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/category-images/30/motherboards.png", parameters={}
+2023-07-06 20:17:07.947 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:/D:/Skills/Projects/Spring Boot/ShopMe/ShopmeLocal/ShopmeWebParentLocal/ShopmeBackendLocal/../category-images/]]
+2023-07-06 20:17:07.947 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:/D:/Skills/Projects/Spring Boot/ShopMe/ShopmeLocal/ShopmeWebParentLocal/ShopmeBackendLocal/../category-images/]]
+2023-07-06 20:17:07.948 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:07.948 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.441 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/brands", parameters={}
+2023-07-06 20:17:08.441 DEBUG 12992 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.shopme.admin.controller.BrandController#listFirstPage()
+2023-07-06 20:17:08.441  INFO 12992 --- [http-nio-8080-exec-6] c.s.admin.controller.BrandController     : BrandController | listByPage is started
+2023-07-06 20:17:08.442 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2023-07-06 20:17:08.442 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2023-07-06 20:17:08.446 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/brands/page/1?sortField=name&sortDir=asc", parameters={masked}
+2023-07-06 20:17:08.447 DEBUG 12992 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.shopme.admin.controller.BrandController#listByPage(PagingAndSortingHelper, int)
+2023-07-06 20:17:08.447  INFO 12992 --- [http-nio-8080-exec-3] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | sortField : name
+2023-07-06 20:17:08.447  INFO 12992 --- [http-nio-8080-exec-3] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | sortDir : asc
+2023-07-06 20:17:08.447  INFO 12992 --- [http-nio-8080-exec-3] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | reverseSortDir : desc
+2023-07-06 20:17:08.447  INFO 12992 --- [http-nio-8080-exec-3] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | keyword : null
+2023-07-06 20:17:08.447  INFO 12992 --- [http-nio-8080-exec-3] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | moduleURL : /brands
+2023-07-06 20:17:08.448  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.controller.BrandController     : BrandController | listByPage is started
+2023-07-06 20:17:08.448  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | listEntities is started
+2023-07-06 20:17:08.448  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | createPageable is started
+2023-07-06 20:17:08.448  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | createPageable | sort : name: ASC
+2023-07-06 20:17:08.448  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | createPageable | pageNum - 1 : 0
+2023-07-06 20:17:08.448  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | createPageable | pageSize : 10
+2023-07-06 20:17:08.451  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | listEntities | page : Page 1 of 3 containing com.shopme.common.entity.Brand instances
+2023-07-06 20:17:08.451  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | listEntities | pageNum : 1
+2023-07-06 20:17:08.451  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes is started
+2023-07-06 20:17:08.451  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | startCount : 1
+2023-07-06 20:17:08.451  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | endCount : 10
+2023-07-06 20:17:08.451  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | page.getTotalElements() : 21
+2023-07-06 20:17:08.451  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | endCount : 10
+2023-07-06 20:17:08.451  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | currentPage : 1
+2023-07-06 20:17:08.451  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | totalPages : 3
+2023-07-06 20:17:08.451  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | totalItems : 21
+2023-07-06 20:17:08.452 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-07-06 20:17:08.611 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.710 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/css/bootstrap.min.css", parameters={}
+2023-07-06 20:17:08.710 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/css/styles.css", parameters={}
+2023-07-06 20:17:08.711 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/fontawesome/all.css", parameters={}
+2023-07-06 20:17:08.711 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:08.711 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:08.711 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/jquery/3.4.1/jquery.min.js", parameters={}
+2023-07-06 20:17:08.711 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:08.711 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/js/bootstrap.min.js", parameters={}
+2023-07-06 20:17:08.711 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/common.js", parameters={}
+2023-07-06 20:17:08.711 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:08.711 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:08.711 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:08.712 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.713 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.713 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.714 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.714 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.714 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.734 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/common_list.js", parameters={}
+2023-07-06 20:17:08.734 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:08.736 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.739 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/ShopmeAdminSmall.png", parameters={}
+2023-07-06 20:17:08.740 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:08.741 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.773 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/english.png", parameters={}
+2023-07-06 20:17:08.773 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:08.774 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.779 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/turkish.png", parameters={}
+2023-07-06 20:17:08.780 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:08.782 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.789 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/brand-logos/8/Apple.png", parameters={}
+2023-07-06 20:17:08.789 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/brand-logos/24/AMD.png", parameters={}
+2023-07-06 20:17:08.790 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/brand-logos/22/ASUS.png", parameters={}
+2023-07-06 20:17:08.790 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:/D:/Skills/Projects/Spring Boot/ShopMe/ShopmeLocal/ShopmeWebParentLocal/ShopmeBackendLocal/../brand-logos/]]
+2023-07-06 20:17:08.790 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:/D:/Skills/Projects/Spring Boot/ShopMe/ShopmeLocal/ShopmeWebParentLocal/ShopmeBackendLocal/../brand-logos/]]
+2023-07-06 20:17:08.790 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/brand-logos/1/Canon.png", parameters={}
+2023-07-06 20:17:08.790 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/brand-logos/2/Fujifilm.png", parameters={}
+2023-07-06 20:17:08.790 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:/D:/Skills/Projects/Spring Boot/ShopMe/ShopmeLocal/ShopmeWebParentLocal/ShopmeBackendLocal/../brand-logos/]]
+2023-07-06 20:17:08.790 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:/D:/Skills/Projects/Spring Boot/ShopMe/ShopmeLocal/ShopmeWebParentLocal/ShopmeBackendLocal/../brand-logos/]]
+2023-07-06 20:17:08.790 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:/D:/Skills/Projects/Spring Boot/ShopMe/ShopmeLocal/ShopmeWebParentLocal/ShopmeBackendLocal/../brand-logos/]]
+2023-07-06 20:17:08.790 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/brand-logos/29/1691-20230131061447-1000%20(3).png", parameters={}
+2023-07-06 20:17:08.792 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.792 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.792 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.792 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.792 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:/D:/Skills/Projects/Spring Boot/ShopMe/ShopmeLocal/ShopmeWebParentLocal/ShopmeBackendLocal/../brand-logos/]]
+2023-07-06 20:17:08.792 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.792 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-07-06 20:17:08.792 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-07-06 20:17:08.792 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/ShopmeAdmin/error", parameters={}
+2023-07-06 20:17:08.793 DEBUG 12992 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-07-06 20:17:08.793 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-06 20:17:08.794 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Jul 06 20:17:08 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-07-06 20:17:08.794 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-07-06 20:17:08.795 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/brand-logos/14/GoPro.png", parameters={}
+2023-07-06 20:17:08.796 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:/D:/Skills/Projects/Spring Boot/ShopMe/ShopmeLocal/ShopmeWebParentLocal/ShopmeBackendLocal/../brand-logos/]]
+2023-07-06 20:17:08.796 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/brand-logos/4/HP.png", parameters={}
+2023-07-06 20:17:08.797 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:/D:/Skills/Projects/Spring Boot/ShopMe/ShopmeLocal/ShopmeWebParentLocal/ShopmeBackendLocal/../brand-logos/]]
+2023-07-06 20:17:08.797 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.797 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.802 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/brand-logos/16/Huawei.png", parameters={}
+2023-07-06 20:17:08.802 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/brand-logos/21/Intel.png", parameters={}
+2023-07-06 20:17:08.804 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:/D:/Skills/Projects/Spring Boot/ShopMe/ShopmeLocal/ShopmeWebParentLocal/ShopmeBackendLocal/../brand-logos/]]
+2023-07-06 20:17:08.804 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:/D:/Skills/Projects/Spring Boot/ShopMe/ShopmeLocal/ShopmeWebParentLocal/ShopmeBackendLocal/../brand-logos/]]
+2023-07-06 20:17:08.805 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.805 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:08.813 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webfonts/fa-solid-900.woff2", parameters={}
+2023-07-06 20:17:08.814 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:08.817 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:09.419 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/products", parameters={}
+2023-07-06 20:17:09.420 DEBUG 12992 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.shopme.admin.controller.ProductController#listFirstPage()
+2023-07-06 20:17:09.420  INFO 12992 --- [http-nio-8080-exec-1] c.s.admin.controller.ProductController   : ProductController | listFirstPage is started
+2023-07-06 20:17:09.420 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2023-07-06 20:17:09.420 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2023-07-06 20:17:09.424 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/products/page/1?sortField=name&sortDir=asc&categoryId=0", parameters={masked}
+2023-07-06 20:17:09.426 DEBUG 12992 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.shopme.admin.controller.ProductController#listByPage(PagingAndSortingHelper, int, Model, Integer)
+2023-07-06 20:17:09.426  INFO 12992 --- [http-nio-8080-exec-5] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | sortField : name
+2023-07-06 20:17:09.426  INFO 12992 --- [http-nio-8080-exec-5] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | sortDir : asc
+2023-07-06 20:17:09.426  INFO 12992 --- [http-nio-8080-exec-5] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | reverseSortDir : desc
+2023-07-06 20:17:09.426  INFO 12992 --- [http-nio-8080-exec-5] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | keyword : null
+2023-07-06 20:17:09.426  INFO 12992 --- [http-nio-8080-exec-5] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | moduleURL : /products
+2023-07-06 20:17:09.426  INFO 12992 --- [http-nio-8080-exec-5] c.s.admin.controller.ProductController   : ProductController | listByPage is started
+2023-07-06 20:17:09.427  INFO 12992 --- [http-nio-8080-exec-5] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | createPageable is started
+2023-07-06 20:17:09.427  INFO 12992 --- [http-nio-8080-exec-5] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | createPageable | sort : name: ASC
+2023-07-06 20:17:09.427  INFO 12992 --- [http-nio-8080-exec-5] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | createPageable | pageNum - 1 : 0
+2023-07-06 20:17:09.427  INFO 12992 --- [http-nio-8080-exec-5] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | createPageable | pageSize : 5
+2023-07-06 20:17:09.436  INFO 12992 --- [http-nio-8080-exec-5] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes is started
+2023-07-06 20:17:09.436  INFO 12992 --- [http-nio-8080-exec-5] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | startCount : 1
+2023-07-06 20:17:09.436  INFO 12992 --- [http-nio-8080-exec-5] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | endCount : 5
+2023-07-06 20:17:09.436  INFO 12992 --- [http-nio-8080-exec-5] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | page.getTotalElements() : 18
+2023-07-06 20:17:09.436  INFO 12992 --- [http-nio-8080-exec-5] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | endCount : 5
+2023-07-06 20:17:09.436  INFO 12992 --- [http-nio-8080-exec-5] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | currentPage : 1
+2023-07-06 20:17:09.436  INFO 12992 --- [http-nio-8080-exec-5] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | totalPages : 4
+2023-07-06 20:17:09.436  INFO 12992 --- [http-nio-8080-exec-5] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | totalItems : 18
+2023-07-06 20:17:09.462  INFO 12992 --- [http-nio-8080-exec-5] c.s.admin.controller.ProductController   : ProductController | newProduct | categoryId : 0
+2023-07-06 20:17:09.462  INFO 12992 --- [http-nio-8080-exec-5] c.s.admin.controller.ProductController   : ProductController | newProduct | listCategories : [Electronics, --Camera & Accessories, ----Digital Cameras, ----Flashes, ----Lenses, ----Movie Cameras, ----Tripods & Monopods, --Phones & Accessories, ----Android Phones, ----Apple Phones, ----Phone Accessories, ------Cables & Adapters, ------Cases, ------Earbuds, ------MicroSD Cards, ----Phone_Holders, --Smart Watch, Camera & Accessories, --Digital Cameras, --Flashes, --Lenses, --Movie Cameras, --Tripods & Monopods, Computers, --Computer Accessories, ----Battery, ----CPU Processors, ----Dongles, ----Graphic Cards, ----Headphones, ----Keyboard, ----Memory, ----Motherboard, ----Mouse, ----Power Supply, --Desktops, --Laptops, --Tablets, Phones & Accessories, --Android Phones, --Apple Phones, --Phone Accessories, ----Cables & Adapters, ----Cases, ----Earbuds, ----MicroSD Cards, --Phone_Holders, Desktops, Laptops, Tablets, Computer Accessories, --Battery, --CPU Processors, --Dongles, --Graphic Cards, --Headphones, --Keyboard, --Memory, --Motherboard, --Mouse, --Power Supply, Movie Cameras, Digital Cameras, Flashes, Lenses, Tripods & Monopods, Apple Phones, Phone Accessories, --Cables & Adapters, --Cases, --Earbuds, --MicroSD Cards, Cables & Adapters, MicroSD Cards, Android Phones, Cases, Headphones, CPU Processors, Graphic Cards, Memory, Motherboard, Battery, Power Supply, Keyboard, Smart Watch, Mouse, Dongles, Phone_Holders, Earbuds]
+2023-07-06 20:17:09.463 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-07-06 20:17:09.615 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:09.639 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/css/bootstrap.min.css", parameters={}
+2023-07-06 20:17:09.640 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/fontawesome/all.css", parameters={}
+2023-07-06 20:17:09.640 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:09.640 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/js/bootstrap.min.js", parameters={}
+2023-07-06 20:17:09.640 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/css/styles.css", parameters={}
+2023-07-06 20:17:09.641 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:09.641 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/common.js", parameters={}
+2023-07-06 20:17:09.640 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/jquery/3.4.1/jquery.min.js", parameters={}
+2023-07-06 20:17:09.641 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:09.641 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:09.641 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:09.641 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:09.642 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:09.642 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:09.642 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:09.644 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:09.644 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:09.644 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:09.697 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/ShopmeAdminSmall.png", parameters={}
+2023-07-06 20:17:09.697 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/common_list.js", parameters={}
+2023-07-06 20:17:09.698 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:09.698 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:09.699 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:09.699 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:09.713 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/english.png", parameters={}
+2023-07-06 20:17:09.713 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/turkish.png", parameters={}
+2023-07-06 20:17:09.713 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/product-images/4/wfJ5oNBTcSj9e2Nbb7cJKS-1200x628.jpg", parameters={}
+2023-07-06 20:17:09.714 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:09.714 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:09.714 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/product-images/23/download%20(7).jpg", parameters={}
+2023-07-06 20:17:09.714 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:/D:/Skills/Projects/Spring Boot/ShopMe/ShopmeLocal/ShopmeWebParentLocal/ShopmeBackendLocal/../product-images/]]
+2023-07-06 20:17:09.714 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/product-images/5/download%20(3).jpg", parameters={}
+2023-07-06 20:17:09.714 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:/D:/Skills/Projects/Spring Boot/ShopMe/ShopmeLocal/ShopmeWebParentLocal/ShopmeBackendLocal/../product-images/]]
+2023-07-06 20:17:09.715 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-07-06 20:17:09.715 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:/D:/Skills/Projects/Spring Boot/ShopMe/ShopmeLocal/ShopmeWebParentLocal/ShopmeBackendLocal/../product-images/]]
+2023-07-06 20:17:09.715 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-07-06 20:17:09.715 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:09.715 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:09.716 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/ShopmeAdmin/error", parameters={}
+2023-07-06 20:17:09.716 DEBUG 12992 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-07-06 20:17:09.716 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:09.716 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/product-images/7/61iWnsuXE6L._AC_SL1000_.jpg", parameters={}
+2023-07-06 20:17:09.717 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-06 20:17:09.717 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Jul 06 20:17:09 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-07-06 20:17:09.717 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:/D:/Skills/Projects/Spring Boot/ShopMe/ShopmeLocal/ShopmeWebParentLocal/ShopmeBackendLocal/../product-images/]]
+2023-07-06 20:17:09.717 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:09.718 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-07-06 20:17:09.718 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:09.719 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/product-images/11/PowerShot-S110-WHITE-CREAT-1.jpg", parameters={}
+2023-07-06 20:17:09.719 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:/D:/Skills/Projects/Spring Boot/ShopMe/ShopmeLocal/ShopmeWebParentLocal/ShopmeBackendLocal/../product-images/]]
+2023-07-06 20:17:09.721 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:09.728 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webfonts/fa-solid-900.woff2", parameters={}
+2023-07-06 20:17:09.729 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:09.731 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:10.602 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/customers", parameters={}
+2023-07-06 20:17:10.602 DEBUG 12992 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.shopme.admin.controller.CustomerController#listFirstPage()
+2023-07-06 20:17:10.602  INFO 12992 --- [http-nio-8080-exec-7] c.s.admin.controller.CustomerController  : CustomerController | listFirstPage is called
+2023-07-06 20:17:10.603 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2023-07-06 20:17:10.603 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2023-07-06 20:17:10.609 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/customers/page/1?sortField=firstName&sortDir=asc", parameters={masked}
+2023-07-06 20:17:10.610 DEBUG 12992 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.shopme.admin.controller.CustomerController#listByPage(PagingAndSortingHelper, int)
+2023-07-06 20:17:10.611  INFO 12992 --- [http-nio-8080-exec-3] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | sortField : firstName
+2023-07-06 20:17:10.611  INFO 12992 --- [http-nio-8080-exec-3] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | sortDir : asc
+2023-07-06 20:17:10.611  INFO 12992 --- [http-nio-8080-exec-3] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | reverseSortDir : desc
+2023-07-06 20:17:10.611  INFO 12992 --- [http-nio-8080-exec-3] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | keyword : null
+2023-07-06 20:17:10.611  INFO 12992 --- [http-nio-8080-exec-3] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | moduleURL : /customers
+2023-07-06 20:17:10.612  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | listEntities is started
+2023-07-06 20:17:10.612  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | createPageable is started
+2023-07-06 20:17:10.612  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | createPageable | sort : firstName: ASC
+2023-07-06 20:17:10.612  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | createPageable | pageNum - 1 : 0
+2023-07-06 20:17:10.612  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | createPageable | pageSize : 10
+2023-07-06 20:17:10.616  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | listEntities | page : Page 1 of 1 containing com.shopme.common.entity.Customer instances
+2023-07-06 20:17:10.616  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | listEntities | pageNum : 1
+2023-07-06 20:17:10.616  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes is started
+2023-07-06 20:17:10.616  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | startCount : 1
+2023-07-06 20:17:10.616  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | endCount : 10
+2023-07-06 20:17:10.616  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | page.getTotalElements() : 3
+2023-07-06 20:17:10.617  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | endCount : 3
+2023-07-06 20:17:10.617  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | currentPage : 1
+2023-07-06 20:17:10.617  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | totalPages : 1
+2023-07-06 20:17:10.617  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | totalItems : 3
+2023-07-06 20:17:10.618 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-07-06 20:17:10.729 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:10.878 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/css/bootstrap.min.css", parameters={}
+2023-07-06 20:17:10.878 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/fontawesome/all.css", parameters={}
+2023-07-06 20:17:10.878 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/css/styles.css", parameters={}
+2023-07-06 20:17:10.879 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/js/bootstrap.min.js", parameters={}
+2023-07-06 20:17:10.879 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:10.879 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/jquery/3.4.1/jquery.min.js", parameters={}
+2023-07-06 20:17:10.879 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:10.879 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/common.js", parameters={}
+2023-07-06 20:17:10.879 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:10.879 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:10.880 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:10.880 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:10.882 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:10.882 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:10.883 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:10.883 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:10.884 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:10.888 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:10.902 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/ShopmeAdminSmall.png", parameters={}
+2023-07-06 20:17:10.902 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/common_list.js", parameters={}
+2023-07-06 20:17:10.902 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:10.902 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:10.904 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:10.904 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:10.908 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/english.png", parameters={}
+2023-07-06 20:17:10.908 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/turkish.png", parameters={}
+2023-07-06 20:17:10.908 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:10.908 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:10.910 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:10.910 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:10.925 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webfonts/fa-solid-900.woff2", parameters={}
+2023-07-06 20:17:10.925 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:10.929 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:16.052 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/shipping_rates", parameters={}
+2023-07-06 20:17:16.053 DEBUG 12992 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.shopme.admin.controller.ShippingRateController#listFirstPage()
+2023-07-06 20:17:16.053  INFO 12992 --- [http-nio-8080-exec-5] c.s.a.controller.ShippingRateController  : ShippingRateController | listFirstPage is called
+2023-07-06 20:17:16.053 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2023-07-06 20:17:16.053 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2023-07-06 20:17:16.058 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/shipping_rates/page/1?sortField=country&sortDir=asc", parameters={masked}
+2023-07-06 20:17:16.059 DEBUG 12992 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.shopme.admin.controller.ShippingRateController#listByPage(PagingAndSortingHelper, int)
+2023-07-06 20:17:16.059  INFO 12992 --- [http-nio-8080-exec-1] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | sortField : country
+2023-07-06 20:17:16.059  INFO 12992 --- [http-nio-8080-exec-1] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | sortDir : asc
+2023-07-06 20:17:16.059  INFO 12992 --- [http-nio-8080-exec-1] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | reverseSortDir : desc
+2023-07-06 20:17:16.059  INFO 12992 --- [http-nio-8080-exec-1] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | keyword : null
+2023-07-06 20:17:16.059  INFO 12992 --- [http-nio-8080-exec-1] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | moduleURL : /shipping_rates
+2023-07-06 20:17:16.059  INFO 12992 --- [http-nio-8080-exec-1] c.s.a.controller.ShippingRateController  : ShippingRateController | listByPage is called
+2023-07-06 20:17:16.059  INFO 12992 --- [http-nio-8080-exec-1] c.s.a.controller.ShippingRateController  : ShippingRateController | listByPage | helper : com.shopme.admin.paging.PagingAndSortingHelper@6fa42cff
+2023-07-06 20:17:16.059  INFO 12992 --- [http-nio-8080-exec-1] c.s.a.controller.ShippingRateController  : ShippingRateController | listByPage | pageNum : 1
+2023-07-06 20:17:16.067  INFO 12992 --- [http-nio-8080-exec-1] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | listEntities is started
+2023-07-06 20:17:16.068  INFO 12992 --- [http-nio-8080-exec-1] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | createPageable is started
+2023-07-06 20:17:16.068  INFO 12992 --- [http-nio-8080-exec-1] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | createPageable | sort : country: ASC
+2023-07-06 20:17:16.068  INFO 12992 --- [http-nio-8080-exec-1] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | createPageable | pageNum - 1 : 0
+2023-07-06 20:17:16.068  INFO 12992 --- [http-nio-8080-exec-1] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | createPageable | pageSize : 10
+2023-07-06 20:17:16.075  INFO 12992 --- [http-nio-8080-exec-1] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | listEntities | page : Page 1 of 1 containing com.shopme.common.entity.ShippingRate instances
+2023-07-06 20:17:16.075  INFO 12992 --- [http-nio-8080-exec-1] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | listEntities | pageNum : 1
+2023-07-06 20:17:16.075  INFO 12992 --- [http-nio-8080-exec-1] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes is started
+2023-07-06 20:17:16.075  INFO 12992 --- [http-nio-8080-exec-1] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | startCount : 1
+2023-07-06 20:17:16.075  INFO 12992 --- [http-nio-8080-exec-1] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | endCount : 10
+2023-07-06 20:17:16.075  INFO 12992 --- [http-nio-8080-exec-1] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | page.getTotalElements() : 6
+2023-07-06 20:17:16.075  INFO 12992 --- [http-nio-8080-exec-1] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | endCount : 6
+2023-07-06 20:17:16.075  INFO 12992 --- [http-nio-8080-exec-1] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | currentPage : 1
+2023-07-06 20:17:16.075  INFO 12992 --- [http-nio-8080-exec-1] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | totalPages : 1
+2023-07-06 20:17:16.075  INFO 12992 --- [http-nio-8080-exec-1] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | totalItems : 6
+2023-07-06 20:17:16.076 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-07-06 20:17:16.220 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:16.356 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/css/bootstrap.min.css", parameters={}
+2023-07-06 20:17:16.356 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/css/styles.css", parameters={}
+2023-07-06 20:17:16.356 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/fontawesome/all.css", parameters={}
+2023-07-06 20:17:16.356 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/js/bootstrap.min.js", parameters={}
+2023-07-06 20:17:16.357 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:16.357 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:16.357 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/jquery/3.4.1/jquery.min.js", parameters={}
+2023-07-06 20:17:16.357 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:16.357 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:16.357 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:16.357 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/common.js", parameters={}
+2023-07-06 20:17:16.357 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:16.358 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:16.358 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:16.359 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:16.359 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:16.360 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:16.360 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:16.377 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/ShopmeAdminSmall.png", parameters={}
+2023-07-06 20:17:16.377 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/common_list.js", parameters={}
+2023-07-06 20:17:16.377 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:16.377 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:16.379 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:16.379 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:16.384 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/turkish.png", parameters={}
+2023-07-06 20:17:16.384 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/english.png", parameters={}
+2023-07-06 20:17:16.385 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:16.385 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:16.388 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:16.388 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:16.402 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webfonts/fa-solid-900.woff2", parameters={}
+2023-07-06 20:17:16.403 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:16.405 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:18.089 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/orders", parameters={}
+2023-07-06 20:17:18.090 DEBUG 12992 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.shopme.admin.controller.OrderController#listFirstPage()
+2023-07-06 20:17:18.090  INFO 12992 --- [http-nio-8080-exec-6] c.s.admin.controller.OrderController     : OrderController | listFirstPage is called
+2023-07-06 20:17:18.090 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2023-07-06 20:17:18.091 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2023-07-06 20:17:18.098 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/orders/page/1?sortField=orderTime&sortDir=desc", parameters={masked}
+2023-07-06 20:17:18.098 DEBUG 12992 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.shopme.admin.controller.OrderController#listByPage(PagingAndSortingHelper, int, ShopmeUserDetails, HttpServletRequest)
+2023-07-06 20:17:18.101  INFO 12992 --- [http-nio-8080-exec-10] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | sortField : orderTime
+2023-07-06 20:17:18.101  INFO 12992 --- [http-nio-8080-exec-10] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | sortDir : desc
+2023-07-06 20:17:18.101  INFO 12992 --- [http-nio-8080-exec-10] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | reverseSortDir : asc
+2023-07-06 20:17:18.101  INFO 12992 --- [http-nio-8080-exec-10] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | keyword : null
+2023-07-06 20:17:18.101  INFO 12992 --- [http-nio-8080-exec-10] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | moduleURL : /orders
+2023-07-06 20:17:18.102  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.controller.OrderController     : OrderController | listByPage is called
+2023-07-06 20:17:18.112  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes is started
+2023-07-06 20:17:18.112  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | startCount : 1
+2023-07-06 20:17:18.112  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | endCount : 10
+2023-07-06 20:17:18.112  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | page.getTotalElements() : 3
+2023-07-06 20:17:18.112  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | endCount : 3
+2023-07-06 20:17:18.112  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | currentPage : 1
+2023-07-06 20:17:18.112  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | totalPages : 1
+2023-07-06 20:17:18.112  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | totalItems : 3
+2023-07-06 20:17:18.113  INFO 12992 --- [http-nio-8080-exec-10] com.shopme.admin.util.OrderUtil          : OrderUtil | loadCurrencySetting is called
+2023-07-06 20:17:18.120  INFO 12992 --- [http-nio-8080-exec-10] com.shopme.admin.util.OrderUtil          : OrderUtil | loadCurrencySetting | currencySettings : [Setting [key=CURRENCY_ID, value=4], Setting [key=CURRENCY_SYMBOL, value=€], Setting [key=CURRENCY_SYMBOL_POSITION, value=Before price], Setting [key=DECIMAL_DIGITS, value=2], Setting [key=DECIMAL_POINT_TYPE, value=POINT], Setting [key=THOUSANDS_POINT_TYPE, value=POINT]]
+2023-07-06 20:17:18.120  INFO 12992 --- [http-nio-8080-exec-10] com.shopme.admin.util.OrderUtil          : OrderUtil | loadCurrencySetting | setting | key : CURRENCY_ID , value : 4
+2023-07-06 20:17:18.120  INFO 12992 --- [http-nio-8080-exec-10] com.shopme.admin.util.OrderUtil          : OrderUtil | loadCurrencySetting | setting | key : CURRENCY_SYMBOL , value : €
+2023-07-06 20:17:18.120  INFO 12992 --- [http-nio-8080-exec-10] com.shopme.admin.util.OrderUtil          : OrderUtil | loadCurrencySetting | setting | key : CURRENCY_SYMBOL_POSITION , value : Before price
+2023-07-06 20:17:18.120  INFO 12992 --- [http-nio-8080-exec-10] com.shopme.admin.util.OrderUtil          : OrderUtil | loadCurrencySetting | setting | key : DECIMAL_DIGITS , value : 2
+2023-07-06 20:17:18.121  INFO 12992 --- [http-nio-8080-exec-10] com.shopme.admin.util.OrderUtil          : OrderUtil | loadCurrencySetting | setting | key : DECIMAL_POINT_TYPE , value : POINT
+2023-07-06 20:17:18.121  INFO 12992 --- [http-nio-8080-exec-10] com.shopme.admin.util.OrderUtil          : OrderUtil | loadCurrencySetting | setting | key : THOUSANDS_POINT_TYPE , value : POINT
+2023-07-06 20:17:18.121  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.controller.OrderController     : OrderController | listByPage | loggedUser : ShopmeUserDetails [user=com.shopme.common.entity.User@1d423471]
+2023-07-06 20:17:18.122 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-07-06 20:17:18.284 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:18.374 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/css/bootstrap.min.css", parameters={}
+2023-07-06 20:17:18.375 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:18.376 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/fontawesome/all.css", parameters={}
+2023-07-06 20:17:18.376 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/jquery/3.4.1/jquery.min.js", parameters={}
+2023-07-06 20:17:18.377 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/js/bootstrap.min.js", parameters={}
+2023-07-06 20:17:18.377 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:18.377 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:18.377 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:18.377 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/css/styles.css", parameters={}
+2023-07-06 20:17:18.378 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:18.378 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/common.js", parameters={}
+2023-07-06 20:17:18.378 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:18.380 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:18.380 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:18.380 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:18.380 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:18.381 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:18.381 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:18.406 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/ShopmeAdminSmall.png", parameters={}
+2023-07-06 20:17:18.406 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/common_list.js", parameters={}
+2023-07-06 20:17:18.408 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:18.408 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:18.410 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:18.410 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:18.410 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/turkish.png", parameters={}
+2023-07-06 20:17:18.410 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/english.png", parameters={}
+2023-07-06 20:17:18.411 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:18.411 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:18.413 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:18.413 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:18.426 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webfonts/fa-solid-900.woff2", parameters={}
+2023-07-06 20:17:18.429 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:18.432 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:19.264 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/reports", parameters={}
+2023-07-06 20:17:19.264 DEBUG 12992 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.shopme.admin.controller.ReportController#viewSalesReportHome(HttpServletRequest)
+2023-07-06 20:17:19.265  INFO 12992 --- [http-nio-8080-exec-2] c.s.admin.controller.ReportController    : ReportController | viewSalesReportHome is called
+2023-07-06 20:17:19.265  INFO 12992 --- [http-nio-8080-exec-2] com.shopme.admin.util.ReportUtil         : ReportUtil | loadCurrencySetting is called
+2023-07-06 20:17:19.268  INFO 12992 --- [http-nio-8080-exec-2] com.shopme.admin.util.ReportUtil         : ReportUtil | loadCurrencySetting | currencySettings : [Setting [key=CURRENCY_ID, value=4], Setting [key=CURRENCY_SYMBOL, value=€], Setting [key=CURRENCY_SYMBOL_POSITION, value=Before price], Setting [key=DECIMAL_DIGITS, value=2], Setting [key=DECIMAL_POINT_TYPE, value=POINT], Setting [key=THOUSANDS_POINT_TYPE, value=POINT]]
+2023-07-06 20:17:19.268  INFO 12992 --- [http-nio-8080-exec-2] com.shopme.admin.util.ReportUtil         : ReportUtil | loadCurrencySetting | setting | key : CURRENCY_ID , value : 4
+2023-07-06 20:17:19.268  INFO 12992 --- [http-nio-8080-exec-2] com.shopme.admin.util.ReportUtil         : ReportUtil | loadCurrencySetting | setting | key : CURRENCY_SYMBOL , value : €
+2023-07-06 20:17:19.268  INFO 12992 --- [http-nio-8080-exec-2] com.shopme.admin.util.ReportUtil         : ReportUtil | loadCurrencySetting | setting | key : CURRENCY_SYMBOL_POSITION , value : Before price
+2023-07-06 20:17:19.268  INFO 12992 --- [http-nio-8080-exec-2] com.shopme.admin.util.ReportUtil         : ReportUtil | loadCurrencySetting | setting | key : DECIMAL_DIGITS , value : 2
+2023-07-06 20:17:19.268  INFO 12992 --- [http-nio-8080-exec-2] com.shopme.admin.util.ReportUtil         : ReportUtil | loadCurrencySetting | setting | key : DECIMAL_POINT_TYPE , value : POINT
+2023-07-06 20:17:19.268  INFO 12992 --- [http-nio-8080-exec-2] com.shopme.admin.util.ReportUtil         : ReportUtil | loadCurrencySetting | setting | key : THOUSANDS_POINT_TYPE , value : POINT
+2023-07-06 20:17:19.269 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-07-06 20:17:19.313 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:19.417 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/css/bootstrap.min.css", parameters={}
+2023-07-06 20:17:19.418 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:19.419 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/fontawesome/all.css", parameters={}
+2023-07-06 20:17:19.419 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:19.420 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/css/styles.css", parameters={}
+2023-07-06 20:17:19.420 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/jquery/3.4.1/jquery.min.js", parameters={}
+2023-07-06 20:17:19.420 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/js/bootstrap.min.js", parameters={}
+2023-07-06 20:17:19.420 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:19.420 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:19.420 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:19.420 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/common.js", parameters={}
+2023-07-06 20:17:19.421 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:19.422 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:19.422 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:19.422 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:19.423 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:19.423 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:19.425 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:19.447 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/jquery.number.min.js", parameters={}
+2023-07-06 20:17:19.448 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:19.451 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:19.461 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/sales_report_by_date.js", parameters={}
+2023-07-06 20:17:19.461 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/sales_report_by_category.js", parameters={}
+2023-07-06 20:17:19.461 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/sales_report_by_product.js", parameters={}
+2023-07-06 20:17:19.461 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/sales_report_common.js", parameters={}
+2023-07-06 20:17:19.462 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/ShopmeAdminSmall.png", parameters={}
+2023-07-06 20:17:19.463 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:19.463 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:19.463 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:19.463 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:19.463 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:19.465 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:19.465 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:19.465 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:19.465 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:19.465 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:19.469 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/english.png", parameters={}
+2023-07-06 20:17:19.469 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/turkish.png", parameters={}
+2023-07-06 20:17:19.470 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:19.470 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:19.472 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:19.472 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:19.481 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webfonts/fa-solid-900.woff2", parameters={}
+2023-07-06 20:17:19.481 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:19.484 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:20.772 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/articles", parameters={}
+2023-07-06 20:17:20.773 DEBUG 12992 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.shopme.admin.controller.ArticleController#listFirstPage(Model)
+2023-07-06 20:17:20.773  INFO 12992 --- [http-nio-8080-exec-3] c.s.admin.controller.ArticleController   : ArticleController | listFirstPage is called
+2023-07-06 20:17:20.773 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2023-07-06 20:17:20.774 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2023-07-06 20:17:20.778 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/articles/page/1?sortField=title&sortDir=asc", parameters={masked}
+2023-07-06 20:17:20.779 DEBUG 12992 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.shopme.admin.controller.ArticleController#listByPage(PagingAndSortingHelper, int)
+2023-07-06 20:17:20.779  INFO 12992 --- [http-nio-8080-exec-10] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | sortField : title
+2023-07-06 20:17:20.779  INFO 12992 --- [http-nio-8080-exec-10] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | sortDir : asc
+2023-07-06 20:17:20.779  INFO 12992 --- [http-nio-8080-exec-10] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | reverseSortDir : desc
+2023-07-06 20:17:20.779  INFO 12992 --- [http-nio-8080-exec-10] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | keyword : null
+2023-07-06 20:17:20.779  INFO 12992 --- [http-nio-8080-exec-10] c.s.a.p.PagingAndSortingArgumentResolver : PagingAndSortingArgumentResolver | resolveArgument | moduleURL : /articles
+2023-07-06 20:17:20.779  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.controller.ArticleController   : ArticleController | listByPage is called
+2023-07-06 20:17:20.783  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | listEntities is started
+2023-07-06 20:17:20.784  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | createPageable is started
+2023-07-06 20:17:20.784  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | createPageable | sort : title: ASC
+2023-07-06 20:17:20.784  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | createPageable | pageNum - 1 : 0
+2023-07-06 20:17:20.784  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | createPageable | pageSize : 5
+2023-07-06 20:17:20.792  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | listEntities | page : Page 1 of 2 containing com.shopme.common.entity.article.Article instances
+2023-07-06 20:17:20.792  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | listEntities | pageNum : 1
+2023-07-06 20:17:20.792  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes is started
+2023-07-06 20:17:20.792  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | startCount : 1
+2023-07-06 20:17:20.792  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | endCount : 5
+2023-07-06 20:17:20.792  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | page.getTotalElements() : 6
+2023-07-06 20:17:20.792  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | endCount : 5
+2023-07-06 20:17:20.792  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | currentPage : 1
+2023-07-06 20:17:20.792  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | totalPages : 2
+2023-07-06 20:17:20.792  INFO 12992 --- [http-nio-8080-exec-10] c.s.admin.paging.PagingAndSortingHelper  : PagingAndSortingHelper | updateModelAttributes | totalItems : 6
+2023-07-06 20:17:20.794 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-07-06 20:17:20.920 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:21.007 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/css/bootstrap.min.css", parameters={}
+2023-07-06 20:17:21.007 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/css/styles.css", parameters={}
+2023-07-06 20:17:21.007 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:21.007 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/fontawesome/all.css", parameters={}
+2023-07-06 20:17:21.007 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/jquery/3.4.1/jquery.min.js", parameters={}
+2023-07-06 20:17:21.007 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/js/bootstrap.min.js", parameters={}
+2023-07-06 20:17:21.009 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:21.009 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:21.009 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:21.011 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:21.012 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/common.js", parameters={}
+2023-07-06 20:17:21.009 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:21.012 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:21.012 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:21.013 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:21.013 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:21.013 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:21.014 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:21.081 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/common_list.js", parameters={}
+2023-07-06 20:17:21.081 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/ShopmeAdminSmall.png", parameters={}
+2023-07-06 20:17:21.082 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:21.082 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:21.083 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:21.083 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:21.092 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/turkish.png", parameters={}
+2023-07-06 20:17:21.093 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/english.png", parameters={}
+2023-07-06 20:17:21.093 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:21.095 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:21.096 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:21.096 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:21.119 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webfonts/fa-solid-900.woff2", parameters={}
+2023-07-06 20:17:21.119 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:21.122 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:22.059 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/menus", parameters={}
+2023-07-06 20:17:22.060 DEBUG 12992 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.shopme.admin.controller.MenuController#listAll(Model)
+2023-07-06 20:17:22.060  INFO 12992 --- [http-nio-8080-exec-2] c.s.admin.controller.MenuController      : MenuController | listAll is called
+2023-07-06 20:17:22.086  INFO 12992 --- [http-nio-8080-exec-2] c.s.admin.controller.MenuController      : MenuController | listAll | listMenuItems size :6
+2023-07-06 20:17:22.087 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-07-06 20:17:22.276 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:22.383 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/css/bootstrap.min.css", parameters={}
+2023-07-06 20:17:22.383 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/fontawesome/all.css", parameters={}
+2023-07-06 20:17:22.384 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/css/styles.css", parameters={}
+2023-07-06 20:17:22.384 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/jquery/3.4.1/jquery.min.js", parameters={}
+2023-07-06 20:17:22.384 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:22.384 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:22.384 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:22.384 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webjars/bootstrap/4.3.1/js/bootstrap.min.js", parameters={}
+2023-07-06 20:17:22.384 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:22.384 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/common.js", parameters={}
+2023-07-06 20:17:22.385 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/webjars/]]
+2023-07-06 20:17:22.385 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:22.385 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:22.385 DEBUG 12992 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:22.386 DEBUG 12992 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:22.387 DEBUG 12992 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:22.387 DEBUG 12992 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:22.388 DEBUG 12992 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:22.404 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/ShopmeAdminSmall.png", parameters={}
+2023-07-06 20:17:22.404 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/js/common_list.js", parameters={}
+2023-07-06 20:17:22.404 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:22.404 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:22.406 DEBUG 12992 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:22.406 DEBUG 12992 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:22.417 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/english.png", parameters={}
+2023-07-06 20:17:22.417 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/images/turkish.png", parameters={}
+2023-07-06 20:17:22.418 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:22.418 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:22.419 DEBUG 12992 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:22.419 DEBUG 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-06 20:17:22.441 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/ShopmeAdmin/webfonts/fa-solid-900.woff2", parameters={}
+2023-07-06 20:17:22.441 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]]
+2023-07-06 20:17:22.444 DEBUG 12992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK

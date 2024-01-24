@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+D:\Skills\Projects\Spring Boot\ShopmeAWS\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
